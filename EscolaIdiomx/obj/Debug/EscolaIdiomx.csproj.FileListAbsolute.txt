@@ -1,0 +1,10 @@
+C:\Users\claudio.ssfilho\source\repos\EscolaIdiomx\EscolaIdiomx\bin\Debug\EscolaIdiomx.exe.config
+C:\Users\claudio.ssfilho\source\repos\EscolaIdiomx\EscolaIdiomx\bin\Debug\EscolaIdiomx.exe
+C:\Users\claudio.ssfilho\source\repos\EscolaIdiomx\EscolaIdiomx\bin\Debug\EscolaIdiomx.pdb
+C:\Users\claudio.ssfilho\source\repos\EscolaIdiomx\EscolaIdiomx\obj\Debug\EscolaIdiomx.csproj.AssemblyReference.cache
+C:\Users\claudio.ssfilho\source\repos\EscolaIdiomx\EscolaIdiomx\obj\Debug\EscolaIdiomx.Form1.resources
+C:\Users\claudio.ssfilho\source\repos\EscolaIdiomx\EscolaIdiomx\obj\Debug\EscolaIdiomx.Properties.Resources.resources
+C:\Users\claudio.ssfilho\source\repos\EscolaIdiomx\EscolaIdiomx\obj\Debug\EscolaIdiomx.csproj.GenerateResource.cache
+C:\Users\claudio.ssfilho\source\repos\EscolaIdiomx\EscolaIdiomx\obj\Debug\EscolaIdiomx.csproj.CoreCompileInputs.cache
+C:\Users\claudio.ssfilho\source\repos\EscolaIdiomx\EscolaIdiomx\obj\Debug\EscolaIdiomx.exe
+C:\Users\claudio.ssfilho\source\repos\EscolaIdiomx\EscolaIdiomx\obj\Debug\EscolaIdiomx.pdb

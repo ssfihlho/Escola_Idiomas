@@ -3,86 +3,196 @@
   "WorkspaceRootPath": "C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|c:\\users\\claudio.ssfilho\\source\\repos\\escolaidiomx\\escolaidiomx\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|solutionrelative:escolaidiomx\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|c:\\users\\claudio.ssfilho\\source\\repos\\escolaidiomx\\escolaidiomx\\alunoscrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|solutionrelative:escolaidiomx\\alunoscrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\escolaidiomx\\matricularaluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|solutionrelative:escolaidiomx\\matricularaluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\escolaidiomx\\logindocentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|solutionrelative:escolaidiomx\\logindocentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|c:\\users\\claudio.ssfilho\\source\\repos\\escolaidiomx\\escolaidiomx\\loginadm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|solutionrelative:escolaidiomx\\loginadm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|c:\\users\\claudio.ssfilho\\source\\repos\\escolaidiomx\\escolaidiomx\\lancamentoavaliacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|solutionrelative:escolaidiomx\\lancamentoavaliacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|c:\\users\\claudio.ssfilho\\source\\repos\\escolaidiomx\\escolaidiomx\\lancamentoavaliacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|solutionrelative:escolaidiomx\\lancamentoavaliacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\escolaidiomx\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|solutionrelative:escolaidiomx\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|c:\\users\\claudio.ssfilho\\source\\repos\\escolaidiomx\\escolaidiomx\\consulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|solutionrelative:escolaidiomx\\consulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|c:\\users\\claudio.ssfilho\\source\\repos\\escolaidiomx\\escolaidiomx\\cadastroidiomas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|solutionrelative:escolaidiomx\\cadastroidiomas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|c:\\users\\claudio.ssfilho\\source\\repos\\escolaidiomx\\escolaidiomx\\cadastrarturmas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|solutionrelative:escolaidiomx\\cadastrarturmas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\escolaidiomx\\cadastrarprofessores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|solutionrelative:escolaidiomx\\cadastrarprofessores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\escolaidiomx\\cadastrarcursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|solutionrelative:escolaidiomx\\cadastrarcursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|c:\\users\\claudio.ssfilho\\source\\repos\\escolaidiomx\\escolaidiomx\\alunoscrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|solutionrelative:escolaidiomx\\alunoscrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\escolaidiomx\\cadastraraluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|solutionrelative:escolaidiomx\\cadastraraluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\escolaidiomx\\cadastrarturmas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|solutionrelative:escolaidiomx\\cadastrarturmas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|c:\\users\\claudio.ssfilho\\source\\repos\\escolaidiomx\\escolaidiomx\\lancamentofrequencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|solutionrelative:escolaidiomx\\lancamentofrequencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\escolaidiomx\\lancamentoavaliacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|solutionrelative:escolaidiomx\\lancamentoavaliacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\escolaidiomx\\lancamentoavaliacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|solutionrelative:escolaidiomx\\lancamentoavaliacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|c:\\users\\claudio.ssfilho\\source\\repos\\escolaidiomx\\escolaidiomx\\idiomascrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|solutionrelative:escolaidiomx\\idiomascrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|c:\\users\\claudio.ssfilho\\source\\repos\\escolaidiomx\\escolaidiomx\\historicodoaluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|solutionrelative:escolaidiomx\\historicodoaluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|c:\\users\\claudio.ssfilho\\source\\repos\\escolaidiomx\\escolaidiomx\\cadastrarusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|solutionrelative:escolaidiomx\\cadastrarusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\escolaidiomx\\cadastrarcursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|solutionrelative:escolaidiomx\\cadastrarcursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\escolaidiomx\\matricularaluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|solutionrelative:escolaidiomx\\matricularaluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\escolaidiomx\\loginadm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|solutionrelative:escolaidiomx\\loginadm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\escolaidiomx\\cadastroidiomas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|solutionrelative:escolaidiomx\\cadastroidiomas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\escolaidiomx\\cadastraraluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|solutionrelative:escolaidiomx\\cadastraraluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\escolaidiomx\\logindocentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|solutionrelative:escolaidiomx\\logindocentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|c:\\users\\claudio.ssfilho\\source\\repos\\escolaidiomx\\escolaidiomx\\cadastrarusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|solutionrelative:escolaidiomx\\cadastrarusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\escolaidiomx\\cadastrarprofessores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|solutionrelative:escolaidiomx\\cadastrarprofessores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\escolaidiomx\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|solutionrelative:escolaidiomx\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|c:\\users\\claudio.ssfilho\\source\\repos\\escolaidiomx\\escolaidiomx\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1EE54508-D980-4683-94E2-3A2EC7ECEE37}|EscolaIdiomx\\EscolaIdiomx.csproj|solutionrelative:escolaidiomx\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 175,
+      "VerticalTabListWidth": 253,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Consulta.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\EscolaIdiomx\\Consulta.cs",
-              "RelativeDocumentMoniker": "EscolaIdiomx\\Consulta.cs",
-              "ToolTip": "C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\EscolaIdiomx\\Consulta.cs [Design]",
-              "RelativeToolTip": "EscolaIdiomx\\Consulta.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "AlunosCRUD.cs",
+              "DocumentMoniker": "C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\EscolaIdiomx\\AlunosCRUD.cs",
+              "RelativeDocumentMoniker": "EscolaIdiomx\\AlunosCRUD.cs",
+              "ToolTip": "C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\EscolaIdiomx\\AlunosCRUD.cs",
+              "RelativeToolTip": "EscolaIdiomx\\AlunosCRUD.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAEwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-05T14:51:31.661Z",
+              "WhenOpened": "2026-10-14T14:42:30.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AlunosCRUD.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\EscolaIdiomx\\AlunosCRUD.cs",
+              "RelativeDocumentMoniker": "EscolaIdiomx\\AlunosCRUD.cs",
+              "ToolTip": "C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\EscolaIdiomx\\AlunosCRUD.cs [Design]",
+              "RelativeToolTip": "EscolaIdiomx\\AlunosCRUD.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:25:32.9Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CadastrarTurmas.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\EscolaIdiomx\\CadastrarTurmas.cs",
+              "RelativeDocumentMoniker": "EscolaIdiomx\\CadastrarTurmas.cs",
+              "ToolTip": "C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\EscolaIdiomx\\CadastrarTurmas.cs [Design]",
+              "RelativeToolTip": "EscolaIdiomx\\CadastrarTurmas.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T14:19:20.903Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IdiomasCRUD.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\EscolaIdiomx\\IdiomasCRUD.cs",
+              "RelativeDocumentMoniker": "EscolaIdiomx\\IdiomasCRUD.cs",
+              "ToolTip": "C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\EscolaIdiomx\\IdiomasCRUD.cs [Design]",
+              "RelativeToolTip": "EscolaIdiomx\\IdiomasCRUD.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T12:46:11.98Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CadastrarUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\EscolaIdiomx\\CadastrarUsuarios.cs",
+              "RelativeDocumentMoniker": "EscolaIdiomx\\CadastrarUsuarios.cs",
+              "ToolTip": "C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\EscolaIdiomx\\CadastrarUsuarios.cs",
+              "RelativeToolTip": "EscolaIdiomx\\CadastrarUsuarios.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAEwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T12:19:36.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CadastrarUsuarios.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\EscolaIdiomx\\CadastrarUsuarios.cs",
+              "RelativeDocumentMoniker": "EscolaIdiomx\\CadastrarUsuarios.cs",
+              "ToolTip": "C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\EscolaIdiomx\\CadastrarUsuarios.cs [Design]",
+              "RelativeToolTip": "EscolaIdiomx\\CadastrarUsuarios.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T12:13:19.436Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "HistoricoDoAluno.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\EscolaIdiomx\\HistoricoDoAluno.cs",
+              "RelativeDocumentMoniker": "EscolaIdiomx\\HistoricoDoAluno.cs",
+              "ToolTip": "C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\EscolaIdiomx\\HistoricoDoAluno.cs [Design]",
+              "RelativeToolTip": "EscolaIdiomx\\HistoricoDoAluno.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T12:03:15.7Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LancamentoFrequencia.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\EscolaIdiomx\\LancamentoFrequencia.cs",
+              "RelativeDocumentMoniker": "EscolaIdiomx\\LancamentoFrequencia.cs",
+              "ToolTip": "C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\EscolaIdiomx\\LancamentoFrequencia.cs [Design]",
+              "RelativeToolTip": "EscolaIdiomx\\LancamentoFrequencia.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T11:38:41.813Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "CadastroIdiomas.cs [Design]",
               "DocumentMoniker": "C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\EscolaIdiomx\\CadastroIdiomas.cs",
               "RelativeDocumentMoniker": "EscolaIdiomx\\CadastroIdiomas.cs",
@@ -94,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "LancamentoAvaliacoes.cs",
               "DocumentMoniker": "C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\EscolaIdiomx\\LancamentoAvaliacoes.cs",
               "RelativeDocumentMoniker": "EscolaIdiomx\\LancamentoAvaliacoes.cs",
@@ -107,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "LancamentoAvaliacoes.cs [Design]",
               "DocumentMoniker": "C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\EscolaIdiomx\\LancamentoAvaliacoes.cs",
               "RelativeDocumentMoniker": "EscolaIdiomx\\LancamentoAvaliacoes.cs",
@@ -119,7 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 19,
               "Title": "Menu.cs [Design]",
               "DocumentMoniker": "C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\EscolaIdiomx\\Menu.cs",
               "RelativeDocumentMoniker": "EscolaIdiomx\\Menu.cs",
@@ -131,19 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CadastrarTurmas.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\EscolaIdiomx\\CadastrarTurmas.cs",
-              "RelativeDocumentMoniker": "EscolaIdiomx\\CadastrarTurmas.cs",
-              "ToolTip": "C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\EscolaIdiomx\\CadastrarTurmas.cs [Design]",
-              "RelativeToolTip": "EscolaIdiomx\\CadastrarTurmas.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-05T14:19:20.903Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 18,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\EscolaIdiomx\\Form1.cs",
               "RelativeDocumentMoniker": "EscolaIdiomx\\Form1.cs",
@@ -155,7 +253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "CadastrarCursos.cs [Design]",
               "DocumentMoniker": "C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\EscolaIdiomx\\CadastrarCursos.cs",
               "RelativeDocumentMoniker": "EscolaIdiomx\\CadastrarCursos.cs",
@@ -167,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "CadastrarProfessores.cs [Design]",
               "DocumentMoniker": "C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\EscolaIdiomx\\CadastrarProfessores.cs",
               "RelativeDocumentMoniker": "EscolaIdiomx\\CadastrarProfessores.cs",
@@ -179,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
               "Title": "CadastrarAluno.cs [Design]",
               "DocumentMoniker": "C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\EscolaIdiomx\\CadastrarAluno.cs",
               "RelativeDocumentMoniker": "EscolaIdiomx\\CadastrarAluno.cs",
@@ -191,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "CadastrarAluno.cs",
               "DocumentMoniker": "C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\EscolaIdiomx\\CadastrarAluno.cs",
               "RelativeDocumentMoniker": "EscolaIdiomx\\CadastrarAluno.cs",
@@ -204,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 15,
               "Title": "LoginDocentes.cs [Design]",
               "DocumentMoniker": "C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\EscolaIdiomx\\LoginDocentes.cs",
               "RelativeDocumentMoniker": "EscolaIdiomx\\LoginDocentes.cs",
@@ -216,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "MatricularAluno.cs [Design]",
               "DocumentMoniker": "C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\EscolaIdiomx\\MatricularAluno.cs",
               "RelativeDocumentMoniker": "EscolaIdiomx\\MatricularAluno.cs",
@@ -228,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "LoginAdm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\claudio.ssfilho\\source\\repos\\EscolaIdiomx\\EscolaIdiomx\\LoginAdm.cs",
               "RelativeDocumentMoniker": "EscolaIdiomx\\LoginAdm.cs",

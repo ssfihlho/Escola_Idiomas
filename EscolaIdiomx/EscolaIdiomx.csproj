@@ -93,6 +93,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlunosCRUD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlunosCRUD.Designer.cs">
+      <DependentUpon>AlunosCRUD.cs</DependentUpon>
+    </Compile>
     <Compile Include="CadastrarAluno.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,6 +123,12 @@
     <Compile Include="CadastrarTurmas.Designer.cs">
       <DependentUpon>CadastrarTurmas.cs</DependentUpon>
     </Compile>
+    <Compile Include="CadastrarUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastrarUsuarios.Designer.cs">
+      <DependentUpon>CadastrarUsuarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="CadastroIdiomas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,11 +147,29 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="HistoricoDoAluno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistoricoDoAluno.Designer.cs">
+      <DependentUpon>HistoricoDoAluno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IdiomasCRUD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IdiomasCRUD.Designer.cs">
+      <DependentUpon>IdiomasCRUD.cs</DependentUpon>
+    </Compile>
     <Compile Include="LancamentoAvaliacoes.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LancamentoAvaliacoes.Designer.cs">
       <DependentUpon>LancamentoAvaliacoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LancamentoFrequencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LancamentoFrequencia.Designer.cs">
+      <DependentUpon>LancamentoFrequencia.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginAdm.cs">
       <SubType>Form</SubType>
@@ -167,6 +197,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AlunosCRUD.resx">
+      <DependentUpon>AlunosCRUD.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CadastrarAluno.resx">
       <DependentUpon>CadastrarAluno.cs</DependentUpon>
     </EmbeddedResource>
@@ -179,6 +212,9 @@
     <EmbeddedResource Include="CadastrarTurmas.resx">
       <DependentUpon>CadastrarTurmas.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CadastrarUsuarios.resx">
+      <DependentUpon>CadastrarUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CadastroIdiomas.resx">
       <DependentUpon>CadastroIdiomas.cs</DependentUpon>
     </EmbeddedResource>
@@ -188,8 +224,17 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="HistoricoDoAluno.resx">
+      <DependentUpon>HistoricoDoAluno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IdiomasCRUD.resx">
+      <DependentUpon>IdiomasCRUD.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LancamentoAvaliacoes.resx">
       <DependentUpon>LancamentoAvaliacoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LancamentoFrequencia.resx">
+      <DependentUpon>LancamentoFrequencia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginAdm.resx">
       <DependentUpon>LoginAdm.cs</DependentUpon>

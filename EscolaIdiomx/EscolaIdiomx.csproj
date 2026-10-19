@@ -135,12 +135,13 @@
     <Compile Include="CadastroIdiomas.Designer.cs">
       <DependentUpon>CadastroIdiomas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Consulta.cs">
+    <Compile Include="CursosCRUD.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Consulta.Designer.cs">
-      <DependentUpon>Consulta.cs</DependentUpon>
+    <Compile Include="CursosCRUD.Designer.cs">
+      <DependentUpon>CursosCRUD.cs</DependentUpon>
     </Compile>
+    <Compile Include="DAO.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -183,6 +184,12 @@
     <Compile Include="LoginDocentes.Designer.cs">
       <DependentUpon>LoginDocentes.cs</DependentUpon>
     </Compile>
+    <Compile Include="LoginSecretaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginSecretaria.Designer.cs">
+      <DependentUpon>LoginSecretaria.cs</DependentUpon>
+    </Compile>
     <Compile Include="MatricularAluno.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -195,8 +202,38 @@
     <Compile Include="Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="MenuDocente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuDocente.Designer.cs">
+      <DependentUpon>MenuDocente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuSecretaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuSecretaria.Designer.cs">
+      <DependentUpon>MenuSecretaria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProfessoresCRUD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProfessoresCRUD.Designer.cs">
+      <DependentUpon>ProfessoresCRUD.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TurmasCRUD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TurmasCRUD.Designer.cs">
+      <DependentUpon>TurmasCRUD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuariosCRUD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuariosCRUD.Designer.cs">
+      <DependentUpon>UsuariosCRUD.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AlunosCRUD.resx">
       <DependentUpon>AlunosCRUD.cs</DependentUpon>
     </EmbeddedResource>
@@ -218,8 +255,8 @@
     <EmbeddedResource Include="CadastroIdiomas.resx">
       <DependentUpon>CadastroIdiomas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Consulta.resx">
-      <DependentUpon>Consulta.cs</DependentUpon>
+    <EmbeddedResource Include="CursosCRUD.resx">
+      <DependentUpon>CursosCRUD.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -242,11 +279,23 @@
     <EmbeddedResource Include="LoginDocentes.resx">
       <DependentUpon>LoginDocentes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LoginSecretaria.resx">
+      <DependentUpon>LoginSecretaria.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MatricularAluno.resx">
       <DependentUpon>MatricularAluno.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuDocente.resx">
+      <DependentUpon>MenuDocente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuSecretaria.resx">
+      <DependentUpon>MenuSecretaria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfessoresCRUD.resx">
+      <DependentUpon>ProfessoresCRUD.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -257,6 +306,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="TurmasCRUD.resx">
+      <DependentUpon>TurmasCRUD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuariosCRUD.resx">
+      <DependentUpon>UsuariosCRUD.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

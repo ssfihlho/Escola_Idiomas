@@ -29,11 +29,12 @@
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btnVoltar = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
             this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
             this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
+            this.button4 = new System.Windows.Forms.Button();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
@@ -53,17 +54,16 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnVoltar = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.butAcessar = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button5 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -102,26 +102,6 @@
             this.panel2.Size = new System.Drawing.Size(398, 328);
             this.panel2.TabIndex = 108;
             // 
-            // btnVoltar
-            // 
-            this.btnVoltar.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVoltar.Location = new System.Drawing.Point(789, 7);
-            this.btnVoltar.Name = "btnVoltar";
-            this.btnVoltar.Size = new System.Drawing.Size(167, 29);
-            this.btnVoltar.TabIndex = 110;
-            this.btnVoltar.Text = "VOLTAR";
-            this.btnVoltar.UseVisualStyleBackColor = true;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(5, 1);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(211, 32);
-            this.label2.TabIndex = 97;
-            this.label2.Text = "Gerenciar Alunos";
-            // 
             // maskedTextBox3
             // 
             this.maskedTextBox3.Location = new System.Drawing.Point(293, 92);
@@ -139,6 +119,15 @@
             this.maskedTextBox2.Size = new System.Drawing.Size(87, 20);
             this.maskedTextBox2.TabIndex = 47;
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(143, 278);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(111, 37);
+            this.button4.TabIndex = 118;
+            this.button4.Text = "Excluir";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
             // maskedTextBox1
             // 
             this.maskedTextBox1.Location = new System.Drawing.Point(76, 35);
@@ -146,6 +135,26 @@
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(87, 20);
             this.maskedTextBox1.TabIndex = 46;
+            // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(260, 277);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(111, 37);
+            this.button3.TabIndex = 117;
+            this.button3.Text = "Salvar";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(26, 277);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(111, 37);
+            this.button1.TabIndex = 116;
+            this.button1.Text = "Editar";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // textBox8
             // 
@@ -313,44 +322,37 @@
             this.label1.TabIndex = 27;
             this.label1.Text = "Nome:";
             // 
-            // button4
+            // btnVoltar
             // 
-            this.button4.Location = new System.Drawing.Point(143, 278);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(111, 37);
-            this.button4.TabIndex = 118;
-            this.button4.Text = "Excluir";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnVoltar.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVoltar.Location = new System.Drawing.Point(789, 7);
+            this.btnVoltar.Name = "btnVoltar";
+            this.btnVoltar.Size = new System.Drawing.Size(167, 29);
+            this.btnVoltar.TabIndex = 110;
+            this.btnVoltar.Text = "VOLTAR";
+            this.btnVoltar.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // label2
             // 
-            this.button3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(260, 277);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(111, 37);
-            this.button3.TabIndex = 117;
-            this.button3.Text = "Salvar";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(26, 277);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(111, 37);
-            this.button1.TabIndex = 116;
-            this.button1.Text = "Editar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(5, 1);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(211, 32);
+            this.label2.TabIndex = 97;
+            this.label2.Text = "Gerenciar Alunos";
             // 
             // butAcessar
             // 
+            this.butAcessar.BackColor = System.Drawing.SystemColors.Control;
             this.butAcessar.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butAcessar.Location = new System.Drawing.Point(615, 7);
             this.butAcessar.Name = "butAcessar";
             this.butAcessar.Size = new System.Drawing.Size(168, 32);
             this.butAcessar.TabIndex = 116;
             this.butAcessar.Text = "NOVO ALUNO";
-            this.butAcessar.UseVisualStyleBackColor = true;
+            this.butAcessar.UseVisualStyleBackColor = false;
+            this.butAcessar.Click += new System.EventHandler(this.butAcessar_Click);
             // 
             // dataGridView1
             // 
@@ -382,15 +384,15 @@
             this.panel1.Size = new System.Drawing.Size(581, 324);
             this.panel1.TabIndex = 121;
             // 
-            // panel3
+            // button2
             // 
-            this.panel3.Controls.Add(this.label2);
-            this.panel3.Controls.Add(this.butAcessar);
-            this.panel3.Controls.Add(this.btnVoltar);
-            this.panel3.Location = new System.Drawing.Point(7, 8);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(968, 42);
-            this.panel3.TabIndex = 122;
+            this.button2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(381, 7);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(98, 29);
+            this.button2.TabIndex = 123;
+            this.button2.Text = "BUSCAR";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // textBox9
             // 
@@ -409,15 +411,15 @@
             this.label13.TabIndex = 121;
             this.label13.Text = "Nome/CPF:";
             // 
-            // button2
+            // panel3
             // 
-            this.button2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(381, 7);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(98, 29);
-            this.button2.TabIndex = 123;
-            this.button2.Text = "BUSCAR";
-            this.button2.UseVisualStyleBackColor = true;
+            this.panel3.Controls.Add(this.label2);
+            this.panel3.Controls.Add(this.butAcessar);
+            this.panel3.Controls.Add(this.btnVoltar);
+            this.panel3.Location = new System.Drawing.Point(7, 8);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(968, 42);
+            this.panel3.TabIndex = 122;
             // 
             // AlunosCRUD
             // 

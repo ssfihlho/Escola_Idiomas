@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace EscolaIdiomx
 {
-    public partial class Consulta : Form
+    public partial class MenuDocente : Form
     {
-        public Consulta()
+        public MenuDocente()
         {
             InitializeComponent();
         }

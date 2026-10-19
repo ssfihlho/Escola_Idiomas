@@ -16,5 +16,23 @@ namespace EscolaIdiomx
         {
             InitializeComponent();
         }
+
+        private void btnLoginDocent_Click(object sender, EventArgs e)
+        {
+            LoginDocentes log = new LoginDocentes();
+            log.ShowDialog();
+        }
+
+        private void btnLoginAdm_Click(object sender, EventArgs e)
+        {
+            LoginAdm log = new LoginAdm();
+            log.ShowDialog();
+        }
+
+        private void btnSecretaria_Click(object sender, EventArgs e)
+        {
+            LoginSecretaria log = new LoginSecretaria();
+            log.ShowDialog();
+        }
     }
 }

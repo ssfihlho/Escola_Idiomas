@@ -31,5 +31,11 @@ namespace EscolaIdiomx
         {
 
         }
+
+        private void butAcessar_Click(object sender, EventArgs e)
+        {
+            CadastrarAluno cad = new CadastrarAluno();
+            cad.ShowDialog();
+        }
     }
 }

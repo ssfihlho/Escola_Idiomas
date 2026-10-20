@@ -49,6 +49,130 @@ namespace EscolaIdiomx
         }
 
 
+        public UsuarioAutenticado AutenticarUsuario(
+            string cpf,
+            string senha)
+        {
+            if (!Conectar())
+                return null;
+
+            try
+            {
+                string sql = @"
+                    SELECT codigo, nome, email, senhaHash, perfil
+                    FROM usuario
+                    WHERE cpf = @cpf
+                      AND ativo = 1
+                    LIMIT 1;
+                ";
+
+                using (MySqlCommand comando =
+                       new MySqlCommand(sql, conexao))
+                {
+                    comando.Parameters.AddWithValue("@cpf", cpf);
+
+                    using (MySqlDataReader reader =
+                           comando.ExecuteReader())
+                    {
+                        if (!reader.Read())
+                            return null;
+
+                        string hash =
+                            reader["senhaHash"].ToString();
+
+                        if (!BCrypt.Net.BCrypt.Verify(senha, hash))
+                            return null;
+
+                        return new UsuarioAutenticado
+                        {
+                            Codigo = Convert.ToInt32(reader["codigo"]),
+                            Nome = reader["nome"].ToString(),
+                            Email = reader["email"].ToString(),
+                            Perfil = reader["perfil"].ToString()
+                        };
+                    }
+                }
+            }
+            catch (MySqlException erro)
+            {
+                MessageBox.Show(
+                    "Erro ao realizar autenticação:\n" + erro.Message);
+
+                return null;
+            }
+            catch (BCrypt.Net.SaltParseException)
+            {
+                MessageBox.Show(
+                    "O hash da senha armazenado é inválido.");
+
+                return null;
+            }
+            finally
+            {
+                Desconectar();
+            }
+        }
+
+        public bool CadastrarUsuario(
+    string nome,
+    string cpf,
+    string email,
+    string senha,
+    string perfil)
+        {
+            if (perfil != "DOCENTE" && perfil != "SECRETARIA")
+                return false;
+
+            if (!Conectar())
+                return false;
+
+            try
+            {
+                string sql = @"
+            INSERT INTO usuario
+                (nome, cpf, email, senhaHash, perfil,
+                 ativo, senhaDefinida)
+            VALUES
+                (@nome, @cpf, @email, @senhaHash, @perfil,
+                 TRUE, TRUE);
+        ";
+
+                string senhaHash = BCrypt.Net.BCrypt.HashPassword(senha);
+
+                using (MySqlCommand comando =
+                       new MySqlCommand(sql, conexao))
+                {
+                    comando.Parameters.AddWithValue("@nome", nome);
+                    comando.Parameters.AddWithValue("@cpf", cpf);
+                    comando.Parameters.AddWithValue("@email", email);
+                    comando.Parameters.AddWithValue("@senhaHash", senhaHash);
+                    comando.Parameters.AddWithValue("@perfil", perfil);
+
+                    return comando.ExecuteNonQuery() == 1;
+                }
+            }
+            catch (MySqlException erro)
+            {
+                if (erro.Number == 1062)
+                {
+                    MessageBox.Show(
+                        "Já existe um usuário com esse CPF ou e-mail.");
+                }
+                else
+                {
+                    MessageBox.Show(
+                        "Erro ao cadastrar usuário: " + erro.Message);
+                }
+
+                return false;
+            }
+            finally
+            {
+                Desconectar();
+            }
+        }
+
+
 
         public bool CadastrarAlunoComEndereco(
             string nome,

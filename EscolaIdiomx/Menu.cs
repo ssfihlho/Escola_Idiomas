@@ -16,5 +16,11 @@ namespace EscolaIdiomx
         {
             InitializeComponent();
         }
+
+        private void btnGerenciarUsuarios_Click(object sender, EventArgs e)
+        {
+            UsuariosCRUD geren = new UsuariosCRUD();
+            geren.ShowDialog();
+        }
     }
 }

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -37,6 +38,57 @@ namespace EscolaIdiomx
 
         private void butAcessar_Click(object sender, EventArgs e)
         {
+
+            DateTime dataNascimento;
+
+            if (!DateTime.TryParseExact(
+                txtboxDtNasc.Text,
+                "dd/MM/yyyy",
+                CultureInfo.GetCultureInfo("pt-BR"),
+                DateTimeStyles.None,
+                out dataNascimento))
+            {
+                MessageBox.Show(
+                    "Informe uma data válida no formato DD/MM/AAAA.",
+                    "Data inválida",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning
+                );
+
+                txtboxDtNasc.Focus();
+                return;
+            }
+
+            // Impedir datas futuras
+            if (dataNascimento.Date > DateTime.Today)
+            {
+                MessageBox.Show(
+                    "A data de nascimento não pode ser futura.",
+                    "Data inválida",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning
+                );
+
+                txtboxDtNasc.Focus();
+                return;
+            }
+
+            // Impedir datas anteriores a 120 anos
+            if (dataNascimento.Date < DateTime.Today.AddYears(-120))
+            {
+                MessageBox.Show(
+                    "Informe uma data de nascimento dentro dos últimos 120 anos.",
+                    "Data inválida",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning
+                );
+
+                txtboxDtNasc.Focus();
+                return;
+            }
+
+
+
             {
                 // Validar os campos obrigatórios
                 if (string.IsNullOrWhiteSpace(cmbNome.Text) ||
@@ -159,6 +211,11 @@ namespace EscolaIdiomx
         private void cmbNome_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
     

@@ -16,5 +16,11 @@ namespace EscolaIdiomx
         {
             InitializeComponent();
         }
+
+        private void butAcessar_Click(object sender, EventArgs e)
+        {
+            CadastrarUsuarios cadastrarUx = new CadastrarUsuarios();
+            cadastrarUx.ShowDialog();
+        }
     }
 }

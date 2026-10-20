@@ -46,7 +46,7 @@
             this.label1.Location = new System.Drawing.Point(258, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(496, 37);
+            this.label1.Size = new System.Drawing.Size(611, 46);
             this.label1.TabIndex = 0;
             this.label1.Text = "Sejam bem-vidos a escola de idiomas";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -58,7 +58,7 @@
             this.label3.Location = new System.Drawing.Point(319, 103);
             this.label3.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(336, 25);
+            this.label3.Size = new System.Drawing.Size(427, 32);
             this.label3.TabIndex = 2;
             this.label3.Text = "Escolha um dos perfis para fazer login";
             // 
@@ -66,7 +66,7 @@
             // 
             this.btnLoginAdm.Location = new System.Drawing.Point(26, 101);
             this.btnLoginAdm.Name = "btnLoginAdm";
-            this.btnLoginAdm.Size = new System.Drawing.Size(240, 59);
+            this.btnLoginAdm.Size = new System.Drawing.Size(261, 59);
             this.btnLoginAdm.TabIndex = 3;
             this.btnLoginAdm.Text = "Administrador";
             this.btnLoginAdm.UseVisualStyleBackColor = true;
@@ -76,7 +76,7 @@
             // 
             this.btnLoginDocent.Location = new System.Drawing.Point(26, 24);
             this.btnLoginDocent.Name = "btnLoginDocent";
-            this.btnLoginDocent.Size = new System.Drawing.Size(240, 59);
+            this.btnLoginDocent.Size = new System.Drawing.Size(261, 59);
             this.btnLoginDocent.TabIndex = 4;
             this.btnLoginDocent.Text = "Docentes";
             this.btnLoginDocent.UseVisualStyleBackColor = true;
@@ -104,7 +104,7 @@
             // 
             this.btnSecretaria.Location = new System.Drawing.Point(26, 177);
             this.btnSecretaria.Name = "btnSecretaria";
-            this.btnSecretaria.Size = new System.Drawing.Size(240, 59);
+            this.btnSecretaria.Size = new System.Drawing.Size(261, 59);
             this.btnSecretaria.TabIndex = 5;
             this.btnSecretaria.Text = "Secretaria";
             this.btnSecretaria.UseVisualStyleBackColor = true;
@@ -112,9 +112,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 37F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(19F, 46F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1015, 432);
+            this.ClientSize = new System.Drawing.Size(1013, 424);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label3);

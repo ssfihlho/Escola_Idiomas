@@ -16,7 +16,7 @@ namespace EscolaIdiomx
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LoginAdm());
+            Application.Run(new Menu());
         }
     }
 }

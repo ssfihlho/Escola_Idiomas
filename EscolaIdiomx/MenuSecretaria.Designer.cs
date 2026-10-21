@@ -118,6 +118,7 @@
             this.button8.TabIndex = 7;
             this.button8.Text = "Histórico do Aluno";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button6
             // 
@@ -127,6 +128,7 @@
             this.button6.TabIndex = 5;
             this.button6.Text = "Matrícula";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
             // 
@@ -136,6 +138,7 @@
             this.button5.TabIndex = 4;
             this.button5.Text = "Gerenciar Turmas";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button3
             // 
@@ -145,6 +148,7 @@
             this.button3.TabIndex = 2;
             this.button3.Text = "Gerenciar Professores";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -154,6 +158,7 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "Gerenciar Alunos";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 

@@ -16,5 +16,16 @@ namespace EscolaIdiomx
         {
             InitializeComponent();
         }
+
+        private void butAcessar_Click(object sender, EventArgs e)
+        {
+            CadastroIdiomas cadIdiomas = new CadastroIdiomas();
+            cadIdiomas.ShowDialog();
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

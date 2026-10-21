@@ -29,20 +29,20 @@
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
-            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtDtNasc = new System.Windows.Forms.MaskedTextBox();
+            this.txtTelefone = new System.Windows.Forms.MaskedTextBox();
+            this.btnExcluir = new System.Windows.Forms.Button();
+            this.txtCPF = new System.Windows.Forms.MaskedTextBox();
+            this.btnSalvar = new System.Windows.Forms.Button();
+            this.btnEditar = new System.Windows.Forms.Button();
+            this.txtNum = new System.Windows.Forms.TextBox();
+            this.txtComplemento = new System.Windows.Forms.TextBox();
+            this.txtLogradouro = new System.Windows.Forms.TextBox();
+            this.txtBairro = new System.Windows.Forms.TextBox();
+            this.txtEstado = new System.Windows.Forms.TextBox();
+            this.txtCidade = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.txtNome = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -57,35 +57,35 @@
             this.btnVoltar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.butAcessar = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button5 = new System.Windows.Forms.Button();
+            this.dgvAlunos = new System.Windows.Forms.DataGridView();
+            this.btnListarTodos = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txtBuscar = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAlunos)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.maskedTextBox3);
-            this.panel2.Controls.Add(this.maskedTextBox2);
-            this.panel2.Controls.Add(this.button4);
-            this.panel2.Controls.Add(this.maskedTextBox1);
-            this.panel2.Controls.Add(this.button3);
-            this.panel2.Controls.Add(this.button1);
-            this.panel2.Controls.Add(this.textBox8);
-            this.panel2.Controls.Add(this.textBox5);
-            this.panel2.Controls.Add(this.textBox4);
-            this.panel2.Controls.Add(this.textBox2);
-            this.panel2.Controls.Add(this.textBox7);
-            this.panel2.Controls.Add(this.textBox6);
-            this.panel2.Controls.Add(this.textBox3);
-            this.panel2.Controls.Add(this.textBox1);
+            this.panel2.Controls.Add(this.txtDtNasc);
+            this.panel2.Controls.Add(this.txtTelefone);
+            this.panel2.Controls.Add(this.btnExcluir);
+            this.panel2.Controls.Add(this.txtCPF);
+            this.panel2.Controls.Add(this.btnSalvar);
+            this.panel2.Controls.Add(this.btnEditar);
+            this.panel2.Controls.Add(this.txtNum);
+            this.panel2.Controls.Add(this.txtComplemento);
+            this.panel2.Controls.Add(this.txtLogradouro);
+            this.panel2.Controls.Add(this.txtBairro);
+            this.panel2.Controls.Add(this.txtEstado);
+            this.panel2.Controls.Add(this.txtCidade);
+            this.panel2.Controls.Add(this.txtEmail);
+            this.panel2.Controls.Add(this.txtNome);
             this.panel2.Controls.Add(this.label12);
             this.panel2.Controls.Add(this.label11);
             this.panel2.Controls.Add(this.label10);
@@ -102,115 +102,118 @@
             this.panel2.Size = new System.Drawing.Size(398, 328);
             this.panel2.TabIndex = 108;
             // 
-            // maskedTextBox3
+            // txtDtNasc
             // 
-            this.maskedTextBox3.Location = new System.Drawing.Point(293, 92);
-            this.maskedTextBox3.Mask = "00/00/0000";
-            this.maskedTextBox3.Name = "maskedTextBox3";
-            this.maskedTextBox3.Size = new System.Drawing.Size(65, 20);
-            this.maskedTextBox3.TabIndex = 48;
-            this.maskedTextBox3.ValidatingType = typeof(System.DateTime);
+            this.txtDtNasc.Location = new System.Drawing.Point(293, 92);
+            this.txtDtNasc.Mask = "00/00/0000";
+            this.txtDtNasc.Name = "txtDtNasc";
+            this.txtDtNasc.Size = new System.Drawing.Size(65, 20);
+            this.txtDtNasc.TabIndex = 48;
+            this.txtDtNasc.ValidatingType = typeof(System.DateTime);
             // 
-            // maskedTextBox2
+            // txtTelefone
             // 
-            this.maskedTextBox2.Location = new System.Drawing.Point(271, 35);
-            this.maskedTextBox2.Mask = "(99) 9 9999-9999";
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(87, 20);
-            this.maskedTextBox2.TabIndex = 47;
+            this.txtTelefone.Location = new System.Drawing.Point(271, 35);
+            this.txtTelefone.Mask = "(99) 9 9999-9999";
+            this.txtTelefone.Name = "txtTelefone";
+            this.txtTelefone.Size = new System.Drawing.Size(87, 20);
+            this.txtTelefone.TabIndex = 47;
             // 
-            // button4
+            // btnExcluir
             // 
-            this.button4.Location = new System.Drawing.Point(143, 278);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(111, 37);
-            this.button4.TabIndex = 118;
-            this.button4.Text = "Excluir";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnExcluir.Location = new System.Drawing.Point(143, 278);
+            this.btnExcluir.Name = "btnExcluir";
+            this.btnExcluir.Size = new System.Drawing.Size(111, 37);
+            this.btnExcluir.TabIndex = 118;
+            this.btnExcluir.Text = "Excluir";
+            this.btnExcluir.UseVisualStyleBackColor = true;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
-            // maskedTextBox1
+            // txtCPF
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(76, 35);
-            this.maskedTextBox1.Mask = "999.999.999-99";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(87, 20);
-            this.maskedTextBox1.TabIndex = 46;
+            this.txtCPF.Location = new System.Drawing.Point(76, 35);
+            this.txtCPF.Mask = "999.999.999-99";
+            this.txtCPF.Name = "txtCPF";
+            this.txtCPF.Size = new System.Drawing.Size(87, 20);
+            this.txtCPF.TabIndex = 46;
             // 
-            // button3
+            // btnSalvar
             // 
-            this.button3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(260, 277);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(111, 37);
-            this.button3.TabIndex = 117;
-            this.button3.Text = "Salvar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnSalvar.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalvar.Location = new System.Drawing.Point(260, 277);
+            this.btnSalvar.Name = "btnSalvar";
+            this.btnSalvar.Size = new System.Drawing.Size(111, 37);
+            this.btnSalvar.TabIndex = 117;
+            this.btnSalvar.Text = "Salvar";
+            this.btnSalvar.UseVisualStyleBackColor = true;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
-            // button1
+            // btnEditar
             // 
-            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(26, 277);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(111, 37);
-            this.button1.TabIndex = 116;
-            this.button1.Text = "Editar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnEditar.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEditar.Location = new System.Drawing.Point(26, 277);
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.Size = new System.Drawing.Size(111, 37);
+            this.btnEditar.TabIndex = 116;
+            this.btnEditar.Text = "Editar";
+            this.btnEditar.UseVisualStyleBackColor = true;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click_1);
             // 
-            // textBox8
+            // txtNum
             // 
-            this.textBox8.Location = new System.Drawing.Point(90, 233);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(47, 20);
-            this.textBox8.TabIndex = 45;
+            this.txtNum.Location = new System.Drawing.Point(90, 233);
+            this.txtNum.Name = "txtNum";
+            this.txtNum.Size = new System.Drawing.Size(47, 20);
+            this.txtNum.TabIndex = 45;
             // 
-            // textBox5
+            // txtComplemento
             // 
-            this.textBox5.Location = new System.Drawing.Point(243, 232);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(115, 20);
-            this.textBox5.TabIndex = 44;
+            this.txtComplemento.Location = new System.Drawing.Point(243, 232);
+            this.txtComplemento.Name = "txtComplemento";
+            this.txtComplemento.Size = new System.Drawing.Size(115, 20);
+            this.txtComplemento.TabIndex = 44;
             // 
-            // textBox4
+            // txtLogradouro
             // 
-            this.textBox4.Location = new System.Drawing.Point(106, 205);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(252, 20);
-            this.textBox4.TabIndex = 43;
+            this.txtLogradouro.Location = new System.Drawing.Point(106, 205);
+            this.txtLogradouro.Name = "txtLogradouro";
+            this.txtLogradouro.Size = new System.Drawing.Size(252, 20);
+            this.txtLogradouro.TabIndex = 43;
             // 
-            // textBox2
+            // txtBairro
             // 
-            this.textBox2.Location = new System.Drawing.Point(90, 177);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(268, 20);
-            this.textBox2.TabIndex = 42;
+            this.txtBairro.Location = new System.Drawing.Point(90, 177);
+            this.txtBairro.Name = "txtBairro";
+            this.txtBairro.Size = new System.Drawing.Size(268, 20);
+            this.txtBairro.TabIndex = 42;
             // 
-            // textBox7
+            // txtEstado
             // 
-            this.textBox7.Location = new System.Drawing.Point(90, 149);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(268, 20);
-            this.textBox7.TabIndex = 41;
+            this.txtEstado.Location = new System.Drawing.Point(90, 149);
+            this.txtEstado.Name = "txtEstado";
+            this.txtEstado.Size = new System.Drawing.Size(268, 20);
+            this.txtEstado.TabIndex = 41;
             // 
-            // textBox6
+            // txtCidade
             // 
-            this.textBox6.Location = new System.Drawing.Point(90, 120);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(268, 20);
-            this.textBox6.TabIndex = 40;
+            this.txtCidade.Location = new System.Drawing.Point(90, 120);
+            this.txtCidade.Name = "txtCidade";
+            this.txtCidade.Size = new System.Drawing.Size(268, 20);
+            this.txtCidade.TabIndex = 40;
             // 
-            // textBox3
+            // txtEmail
             // 
-            this.textBox3.Location = new System.Drawing.Point(77, 64);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(281, 20);
-            this.textBox3.TabIndex = 39;
+            this.txtEmail.Location = new System.Drawing.Point(77, 64);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(281, 20);
+            this.txtEmail.TabIndex = 39;
             // 
-            // textBox1
+            // txtNome
             // 
-            this.textBox1.Location = new System.Drawing.Point(77, 7);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(281, 20);
-            this.textBox1.TabIndex = 38;
+            this.txtNome.Location = new System.Drawing.Point(77, 7);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(281, 20);
+            this.txtNome.TabIndex = 38;
             // 
             // label12
             // 
@@ -331,6 +334,7 @@
             this.btnVoltar.TabIndex = 110;
             this.btnVoltar.Text = "VOLTAR";
             this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // label2
             // 
@@ -354,31 +358,34 @@
             this.butAcessar.UseVisualStyleBackColor = false;
             this.butAcessar.Click += new System.EventHandler(this.butAcessar_Click);
             // 
-            // dataGridView1
+            // dgvAlunos
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(19, 80);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(550, 228);
-            this.dataGridView1.TabIndex = 119;
+            this.dgvAlunos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvAlunos.Location = new System.Drawing.Point(19, 80);
+            this.dgvAlunos.Name = "dgvAlunos";
+            this.dgvAlunos.Size = new System.Drawing.Size(550, 228);
+            this.dgvAlunos.TabIndex = 119;
+            this.dgvAlunos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvAlunos_CellClick);
+            this.dgvAlunos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvAlunos_CellContentClick);
             // 
-            // button5
+            // btnListarTodos
             // 
-            this.button5.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(79, 42);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(308, 33);
-            this.button5.TabIndex = 120;
-            this.button5.Text = "LISTAR TODOS OS ALUNOS";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnListarTodos.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnListarTodos.Location = new System.Drawing.Point(79, 42);
+            this.btnListarTodos.Name = "btnListarTodos";
+            this.btnListarTodos.Size = new System.Drawing.Size(308, 33);
+            this.btnListarTodos.TabIndex = 120;
+            this.btnListarTodos.Text = "LISTAR TODOS OS ALUNOS";
+            this.btnListarTodos.UseVisualStyleBackColor = true;
+            this.btnListarTodos.Click += new System.EventHandler(this.btnListarTodos_Click);
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.textBox9);
+            this.panel1.Controls.Add(this.txtBuscar);
             this.panel1.Controls.Add(this.label13);
-            this.panel1.Controls.Add(this.button5);
-            this.panel1.Controls.Add(this.dataGridView1);
+            this.panel1.Controls.Add(this.btnListarTodos);
+            this.panel1.Controls.Add(this.dgvAlunos);
             this.panel1.Location = new System.Drawing.Point(18, 85);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(581, 324);
@@ -393,13 +400,14 @@
             this.button2.TabIndex = 123;
             this.button2.Text = "BUSCAR";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // textBox9
+            // txtBuscar
             // 
-            this.textBox9.Location = new System.Drawing.Point(94, 13);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(281, 20);
-            this.textBox9.TabIndex = 122;
+            this.txtBuscar.Location = new System.Drawing.Point(94, 13);
+            this.txtBuscar.Name = "txtBuscar";
+            this.txtBuscar.Size = new System.Drawing.Size(281, 20);
+            this.txtBuscar.TabIndex = 122;
             // 
             // label13
             // 
@@ -436,7 +444,7 @@
             this.Load += new System.EventHandler(this.AlunosCRUD_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAlunos)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel3.ResumeLayout(false);
@@ -449,17 +457,17 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button btnVoltar;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox3;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.MaskedTextBox txtDtNasc;
+        private System.Windows.Forms.MaskedTextBox txtTelefone;
+        private System.Windows.Forms.MaskedTextBox txtCPF;
+        private System.Windows.Forms.TextBox txtNum;
+        private System.Windows.Forms.TextBox txtComplemento;
+        private System.Windows.Forms.TextBox txtLogradouro;
+        private System.Windows.Forms.TextBox txtBairro;
+        private System.Windows.Forms.TextBox txtEstado;
+        private System.Windows.Forms.TextBox txtCidade;
+        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
@@ -471,15 +479,15 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnExcluir;
+        private System.Windows.Forms.Button btnSalvar;
+        private System.Windows.Forms.Button btnEditar;
         private System.Windows.Forms.Button butAcessar;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.DataGridView dgvAlunos;
+        private System.Windows.Forms.Button btnListarTodos;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox txtBuscar;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Button button2;
     }

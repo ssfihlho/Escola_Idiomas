@@ -39,9 +39,6 @@
             this.button5 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -50,6 +47,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -86,6 +86,7 @@
             this.butAcessar.TabIndex = 116;
             this.butAcessar.Text = "NOVO PROFESSOR";
             this.butAcessar.UseVisualStyleBackColor = false;
+            this.butAcessar.Click += new System.EventHandler(this.butAcessar_Click);
             // 
             // btnVoltar
             // 
@@ -96,6 +97,7 @@
             this.btnVoltar.TabIndex = 110;
             this.btnVoltar.Text = "VOLTAR";
             this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // panel1
             // 
@@ -172,35 +174,6 @@
             this.panel2.Size = new System.Drawing.Size(398, 324);
             this.panel2.TabIndex = 126;
             // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(143, 278);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(111, 37);
-            this.button4.TabIndex = 118;
-            this.button4.Text = "Excluir";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(260, 277);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(111, 37);
-            this.button3.TabIndex = 117;
-            this.button3.Text = "Salvar";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(26, 277);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(111, 37);
-            this.button1.TabIndex = 116;
-            this.button1.Text = "Editar";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // maskedTextBox2
             // 
             this.maskedTextBox2.Location = new System.Drawing.Point(320, 142);
@@ -274,6 +247,35 @@
             this.label6.Size = new System.Drawing.Size(58, 13);
             this.label6.TabIndex = 120;
             this.label6.Text = "Professor:";
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(143, 278);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(111, 37);
+            this.button4.TabIndex = 118;
+            this.button4.Text = "Excluir";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(260, 277);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(111, 37);
+            this.button3.TabIndex = 117;
+            this.button3.Text = "Salvar";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(26, 277);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(111, 37);
+            this.button1.TabIndex = 116;
+            this.button1.Text = "Editar";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // TurmasCRUD
             // 

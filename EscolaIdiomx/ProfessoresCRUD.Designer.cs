@@ -94,12 +94,13 @@
             // 
             this.butAcessar.BackColor = System.Drawing.SystemColors.Control;
             this.butAcessar.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.butAcessar.Location = new System.Drawing.Point(615, 7);
+            this.butAcessar.Location = new System.Drawing.Point(556, 7);
             this.butAcessar.Name = "butAcessar";
-            this.butAcessar.Size = new System.Drawing.Size(168, 32);
+            this.butAcessar.Size = new System.Drawing.Size(227, 32);
             this.butAcessar.TabIndex = 116;
             this.butAcessar.Text = "NOVO PROFESSOR";
             this.butAcessar.UseVisualStyleBackColor = false;
+            this.butAcessar.Click += new System.EventHandler(this.butAcessar_Click);
             // 
             // btnVoltar
             // 
@@ -110,6 +111,7 @@
             this.btnVoltar.TabIndex = 110;
             this.btnVoltar.Text = "VOLTAR";
             this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // panel1
             // 

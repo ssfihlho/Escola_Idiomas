@@ -16,5 +16,16 @@ namespace EscolaIdiomx
         {
             InitializeComponent();
         }
+
+        private void butAcessar_Click(object sender, EventArgs e)
+        {
+            CadastrarProfessores cadProfessor = new CadastrarProfessores();
+            cadProfessor.ShowDialog();
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

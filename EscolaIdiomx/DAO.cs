@@ -1,10 +1,11 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MySql.Data.MySqlClient;
 
 namespace EscolaIdiomx
 {
@@ -289,7 +290,241 @@ namespace EscolaIdiomx
             }
         }
 
+        // CONSULTAR ALUNOS
+        public DataTable ListarAlunos(string filtro = "")
+        {
+            DataTable tabela = new DataTable();
 
+            if (!Conectar())
+                return tabela;
+
+            try
+            {
+                string sql = @"
+            SELECT
+                a.codigo AS Codigo,
+                a.nome AS Nome,
+                a.cpf AS CPF,
+                a.email AS Email,
+                a.telefone AS Telefone,
+                a.dataNascimento AS DataNascimento,
+                a.enderecoCodigo AS EnderecoCodigo,
+                e.cidade AS Cidade,
+                e.estado AS Estado,
+                e.bairro AS Bairro,
+                e.logradouro AS Logradouro,
+                e.numero AS Numero,
+                e.complemento AS Complemento
+            FROM aluno a
+            LEFT JOIN endereco e
+                ON e.codigo = a.enderecoCodigo
+            WHERE a.nome LIKE @filtro
+               OR a.cpf LIKE @cpf
+            ORDER BY a.nome;";
+
+                using (MySqlCommand cmd =
+                    new MySqlCommand(sql, conexao))
+                {
+                    cmd.Parameters.AddWithValue(
+                        "@filtro", "%" + filtro + "%");
+
+                    cmd.Parameters.AddWithValue(
+                        "@cpf", "%" +
+                        new string(filtro.Where(char.IsDigit).ToArray()) +
+                        "%");
+
+                    using (MySqlDataAdapter adapter =
+                        new MySqlDataAdapter(cmd))
+                    {
+                        adapter.Fill(tabela);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(
+                    ex.ToString(),
+                    "Erro ao listar alunos",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error
+                );
+            }
+            finally
+            {
+                Desconectar();
+            }
+
+            return tabela;
+        }
+
+
+        public bool AtualizarAluno(
+            int codigo,
+            int? enderecoCodigo,
+            string nome,
+            string cpf,
+            string email,
+            string telefone,
+            DateTime dataNascimento,
+            string cidade,
+            string estado,
+            string bairro,
+            string logradouro,
+            string numero,
+            string complemento)
+        {
+            if (!Conectar())
+                return false;
+
+            MySqlTransaction transacao = null;
+
+            try
+            {
+                transacao = conexao.BeginTransaction();
+
+                int idEndereco;
+
+                if (enderecoCodigo.HasValue)
+                {
+                    idEndereco = enderecoCodigo.Value;
+
+                    string sqlEndereco = @"
+                UPDATE endereco
+                SET cidade = @cidade,
+                    estado = @estado,
+                    bairro = @bairro,
+                    logradouro = @logradouro,
+                    numero = @numero,
+                    complemento = @complemento
+                WHERE codigo = @codigo;";
+
+                    using (MySqlCommand cmd = new MySqlCommand(
+                        sqlEndereco, conexao, transacao))
+                    {
+                        cmd.Parameters.AddWithValue("@cidade", cidade);
+                        cmd.Parameters.AddWithValue("@estado", estado);
+                        cmd.Parameters.AddWithValue("@bairro", bairro);
+                        cmd.Parameters.AddWithValue("@logradouro", logradouro);
+                        cmd.Parameters.AddWithValue("@numero", numero);
+                        cmd.Parameters.AddWithValue("@complemento", complemento);
+                        cmd.Parameters.AddWithValue("@codigo", idEndereco);
+
+                        cmd.ExecuteNonQuery();
+                    }
+                }
+                else
+                {
+                    string sqlNovoEndereco = @"
+                INSERT INTO endereco
+                    (cidade, estado, bairro, logradouro,
+                     numero, complemento)
+                VALUES
+                    (@cidade, @estado, @bairro, @logradouro,
+                     @numero, @complemento);";
+
+                    using (MySqlCommand cmd = new MySqlCommand(
+                        sqlNovoEndereco, conexao, transacao))
+                    {
+                        cmd.Parameters.AddWithValue("@cidade", cidade);
+                        cmd.Parameters.AddWithValue("@estado", estado);
+                        cmd.Parameters.AddWithValue("@bairro", bairro);
+                        cmd.Parameters.AddWithValue("@logradouro", logradouro);
+                        cmd.Parameters.AddWithValue("@numero", numero);
+                        cmd.Parameters.AddWithValue("@complemento", complemento);
+
+                        cmd.ExecuteNonQuery();
+                        idEndereco = Convert.ToInt32(cmd.LastInsertedId);
+                    }
+                }
+
+                string sqlAluno = @"
+            UPDATE aluno
+            SET nome = @nome,
+                cpf = @cpf,
+                email = @email,
+                telefone = @telefone,
+                dataNascimento = @dataNascimento,
+                enderecoCodigo = @enderecoCodigo
+            WHERE codigo = @codigo;";
+
+                using (MySqlCommand cmd = new MySqlCommand(
+                    sqlAluno, conexao, transacao))
+                {
+                    cmd.Parameters.AddWithValue("@nome", nome);
+                    cmd.Parameters.AddWithValue("@cpf", cpf);
+                    cmd.Parameters.AddWithValue("@email", email);
+                    cmd.Parameters.AddWithValue("@telefone", telefone);
+                    cmd.Parameters.AddWithValue(
+                        "@dataNascimento", dataNascimento);
+                    cmd.Parameters.AddWithValue(
+                        "@enderecoCodigo", idEndereco);
+                    cmd.Parameters.AddWithValue("@codigo", codigo);
+
+                    if (cmd.ExecuteNonQuery() != 1)
+                        throw new Exception("O aluno não foi encontrado.");
+                }
+
+                transacao.Commit();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                if (transacao != null)
+                    transacao.Rollback();
+
+                MessageBox.Show(
+                    "Erro ao atualizar aluno:\n" + ex.Message,
+                    "Erro",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
+
+                return false;
+            }
+            finally
+            {
+                if (transacao != null)
+                    transacao.Dispose();
+
+                Desconectar();
+            }
+
+
+        }
+
+        public bool ExcluirAluno(int codigo)
+        {
+            if (!Conectar())
+                return false;
+
+            try
+            {
+                string sql = "DELETE FROM aluno WHERE codigo = @codigo";
+
+                using (MySqlCommand cmd = new MySqlCommand(sql, conexao))
+                {
+                    cmd.Parameters.AddWithValue("@codigo", codigo);
+
+                    int linhasAfetadas = cmd.ExecuteNonQuery();
+
+                    return linhasAfetadas == 1;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(
+                    "Erro ao excluir aluno: " + ex.Message,
+                    "Erro",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error
+                );
+
+                return false;
+            }
+            finally
+            {
+                Desconectar();
+            }
+        }
 
 
 

@@ -22,5 +22,10 @@ namespace EscolaIdiomx
             CadastrarUsuarios cadastrarUx = new CadastrarUsuarios();
             cadastrarUx.ShowDialog();
         }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

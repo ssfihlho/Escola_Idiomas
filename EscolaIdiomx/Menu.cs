@@ -22,5 +22,46 @@ namespace EscolaIdiomx
             UsuariosCRUD geren = new UsuariosCRUD();
             geren.ShowDialog();
         }
+
+        private void btnGerenciarDocentes_Click(object sender, EventArgs e)
+        {
+            ProfessoresCRUD gerenciarProf = new ProfessoresCRUD();
+            gerenciarProf.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            AlunosCRUD gerenciarAlunos = new AlunosCRUD();
+            gerenciarAlunos.ShowDialog();
+        }
+
+        private void btnGerenciarCursos_Click(object sender, EventArgs e)
+        {
+            CursosCRUD gerenciarCursos = new CursosCRUD();
+            gerenciarCursos.ShowDialog();
+        }
+
+        private void btnGerenciarTurmas_Click(object sender, EventArgs e)
+        {
+            TurmasCRUD gerenciarTurmas = new TurmasCRUD();
+            gerenciarTurmas.ShowDialog();
+        }
+
+        private void btnHistoricoAluno_Click(object sender, EventArgs e)
+        {
+            HistoricoDoAluno historicoDoAluno = new HistoricoDoAluno();
+            historicoDoAluno.ShowDialog();
+        }
+
+        private void btnMatricularAluno_Click(object sender, EventArgs e)
+        {
+            MatricularAluno matricularAluno = new MatricularAluno();
+            matricularAluno.ShowDialog();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

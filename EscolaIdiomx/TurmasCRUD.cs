@@ -16,5 +16,17 @@ namespace EscolaIdiomx
         {
             InitializeComponent();
         }
+
+        private void butAcessar_Click(object sender, EventArgs e)
+        {
+            CadastrarTurmas cadTurmas = new CadastrarTurmas();
+            cadTurmas.ShowDialog();
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+
+        }
     }
 }

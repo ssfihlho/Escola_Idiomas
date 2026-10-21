@@ -35,9 +35,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnHistoricoAluno = new System.Windows.Forms.Button();
+            this.btnFrequencias = new System.Windows.Forms.Button();
+            this.btnAvaliacoes = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
@@ -90,41 +90,44 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.button8);
-            this.panel2.Controls.Add(this.button5);
-            this.panel2.Controls.Add(this.button4);
+            this.panel2.Controls.Add(this.btnHistoricoAluno);
+            this.panel2.Controls.Add(this.btnFrequencias);
+            this.panel2.Controls.Add(this.btnAvaliacoes);
             this.panel2.Controls.Add(this.button1);
             this.panel2.Location = new System.Drawing.Point(12, 76);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(383, 348);
             this.panel2.TabIndex = 6;
             // 
-            // button8
+            // btnHistoricoAluno
             // 
-            this.button8.Location = new System.Drawing.Point(123, 164);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(152, 35);
-            this.button8.TabIndex = 7;
-            this.button8.Text = "Histórico do Aluno";
-            this.button8.UseVisualStyleBackColor = true;
+            this.btnHistoricoAluno.Location = new System.Drawing.Point(123, 164);
+            this.btnHistoricoAluno.Name = "btnHistoricoAluno";
+            this.btnHistoricoAluno.Size = new System.Drawing.Size(152, 35);
+            this.btnHistoricoAluno.TabIndex = 7;
+            this.btnHistoricoAluno.Text = "Histórico do Aluno";
+            this.btnHistoricoAluno.UseVisualStyleBackColor = true;
+            this.btnHistoricoAluno.Click += new System.EventHandler(this.btnHistoricoAluno_Click);
             // 
-            // button5
+            // btnFrequencias
             // 
-            this.button5.Location = new System.Drawing.Point(123, 76);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(152, 38);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Lançar Frequências";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnFrequencias.Location = new System.Drawing.Point(123, 76);
+            this.btnFrequencias.Name = "btnFrequencias";
+            this.btnFrequencias.Size = new System.Drawing.Size(152, 38);
+            this.btnFrequencias.TabIndex = 4;
+            this.btnFrequencias.Text = "Lançar Frequências";
+            this.btnFrequencias.UseVisualStyleBackColor = true;
+            this.btnFrequencias.Click += new System.EventHandler(this.btnFrequencias_Click);
             // 
-            // button4
+            // btnAvaliacoes
             // 
-            this.button4.Location = new System.Drawing.Point(123, 120);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(152, 38);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Lançar Avaliações";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnAvaliacoes.Location = new System.Drawing.Point(123, 120);
+            this.btnAvaliacoes.Name = "btnAvaliacoes";
+            this.btnAvaliacoes.Size = new System.Drawing.Size(152, 38);
+            this.btnAvaliacoes.TabIndex = 3;
+            this.btnAvaliacoes.Text = "Lançar Avaliações";
+            this.btnAvaliacoes.UseVisualStyleBackColor = true;
+            this.btnAvaliacoes.Click += new System.EventHandler(this.btnAvaliacoes_Click);
             // 
             // button1
             // 
@@ -169,9 +172,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnHistoricoAluno;
+        private System.Windows.Forms.Button btnFrequencias;
+        private System.Windows.Forms.Button btnAvaliacoes;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel3;
     }

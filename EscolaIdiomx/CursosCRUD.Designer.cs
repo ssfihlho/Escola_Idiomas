@@ -115,6 +115,7 @@
             this.butAcessar.TabIndex = 116;
             this.butAcessar.Text = "NOVO CURSO";
             this.butAcessar.UseVisualStyleBackColor = false;
+            this.butAcessar.Click += new System.EventHandler(this.butAcessar_Click);
             // 
             // btnVoltar
             // 
@@ -125,6 +126,7 @@
             this.btnVoltar.TabIndex = 110;
             this.btnVoltar.Text = "VOLTAR";
             this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // button2
             // 

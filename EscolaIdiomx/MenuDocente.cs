@@ -16,5 +16,23 @@ namespace EscolaIdiomx
         {
             InitializeComponent();
         }
+
+        private void btnFrequencias_Click(object sender, EventArgs e)
+        {
+            LancamentoFrequencia lancFrequencia = new LancamentoFrequencia();
+            lancFrequencia.ShowDialog();
+        }
+
+        private void btnAvaliacoes_Click(object sender, EventArgs e)
+        {
+            LancamentoAvaliacoes lancAvaliacoes = new LancamentoAvaliacoes();
+            lancAvaliacoes.ShowDialog();
+        }
+
+        private void btnHistoricoAluno_Click(object sender, EventArgs e)
+        {
+            HistoricoDoAluno historicoDoAluno = new HistoricoDoAluno();
+            historicoDoAluno.ShowDialog();
+        }
     }
 }

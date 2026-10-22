@@ -36,15 +36,15 @@ namespace EscolaIdiomx
         {
 
             string nome = txtNomeBox.Text.Trim();
-            string cpf = new string(
-                txtCPF.Text.Where(char.IsDigit).ToArray());
+            string cpf = new string(txtCPF.Text.Where(char.IsDigit).ToArray());
             string email = txtEmail.Text.Trim();
             string senha = txtSenha.Text;
             string confirmarSenha = txtConfirmarSenha.Text;
 
+            // 1. Validações de entrada
             if (string.IsNullOrWhiteSpace(nome))
             {
-                MessageBox.Show("Informe o nome.");
+                MessageBox.Show("Informe o nome completo.");
                 txtNomeBox.Focus();
                 return;
             }
@@ -59,7 +59,6 @@ namespace EscolaIdiomx
             try
             {
                 var endereco = new MailAddress(email);
-
                 if (endereco.Address != email)
                 {
                     MessageBox.Show("Informe um e-mail válido.");
@@ -91,31 +90,59 @@ namespace EscolaIdiomx
 
             if (cmbPerfil.SelectedItem == null)
             {
-                MessageBox.Show("Selecione um perfil.");
+                MessageBox.Show("Selecione um perfil de acesso.");
                 return;
             }
 
-            string perfil = cmbPerfil.SelectedItem.ToString();
+            string perfil = cmbPerfil.SelectedItem.ToString().Trim().ToUpperInvariant();
 
+            // 2. Persistência via DAO e recuperação do ID criado
             DAO dao = new DAO();
+            int usuarioCodigo = dao.CadastrarUsuarioEObterId(nome, cpf, email, senha, perfil);
 
-            bool cadastrado = dao.CadastrarUsuario(
-                nome, cpf, email, senha, perfil);
-
-            if (cadastrado)
+            // 3. Roteamento de acordo com o perfil
+            if (usuarioCodigo > 0)
             {
-                MessageBox.Show("Usuário cadastrado com sucesso!");
+                LimparFormulario();
 
-                txtNomeBox.Clear();
-                txtCPF.Clear();
-                txtEmail.Clear();
-                txtSenha.Clear();
-                txtConfirmarSenha.Clear();
-                cmbPerfil.SelectedIndex = 0;
+                if (perfil == "DOCENTE")
+                {
+                    MessageBox.Show("Usuário criado com sucesso! Prossiga preenchendo os dados do Docente.",
+                                    "Passo 1 Concluído",
+                                    MessageBoxButtons.OK,
+                                    MessageBoxIcon.Information);
 
-                txtNomeBox.Focus();
+                    // Abre a Tela 2 enviando o ID do Usuário criado
+                    CadastrarProfessores telaProfessor = new CadastrarProfessores(usuarioCodigo);
+
+                    this.Hide();
+                    telaProfessor.ShowDialog();
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Usuário de Secretaria cadastrado com sucesso!",
+                                    "Sucesso",
+                                    MessageBoxButtons.OK,
+                                    MessageBoxIcon.Information);
+                }
             }
         }
+
+        private void LimparFormulario()
+        {
+            txtNomeBox.Clear();
+            txtCPF.Clear();
+            txtEmail.Clear();
+            txtSenha.Clear();
+            txtConfirmarSenha.Clear();
+
+            if (cmbPerfil.Items.Count > 0)
+                cmbPerfil.SelectedIndex = -1;
+
+            txtNomeBox.Focus();
+        }
+    
 
         private void txtNome_TextChanged(object sender, EventArgs e)
         {

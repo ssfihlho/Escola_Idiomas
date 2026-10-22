@@ -63,5 +63,11 @@ namespace EscolaIdiomx
         {
             this.Close();
         }
+
+        private void btnIdiomas_Click(object sender, EventArgs e)
+        {
+            IdiomasCRUD gerenIdi = new IdiomasCRUD();
+            gerenIdi.ShowDialog();
+        }
     }
 }

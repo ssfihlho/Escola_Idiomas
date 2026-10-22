@@ -28,86 +28,95 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cmbProfessor = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cmbCurso = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.butAcessar = new System.Windows.Forms.Button();
             this.btnVoltar = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.dtpInicio = new System.Windows.Forms.DateTimePicker();
+            this.dtpFim = new System.Windows.Forms.DateTimePicker();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // comboBox2
+            // cmbProfessor
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(94, 90);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(281, 21);
-            this.comboBox2.TabIndex = 90;
+            this.cmbProfessor.FormattingEnabled = true;
+            this.cmbProfessor.Location = new System.Drawing.Point(125, 111);
+            this.cmbProfessor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbProfessor.Name = "cmbProfessor";
+            this.cmbProfessor.Size = new System.Drawing.Size(373, 24);
+            this.cmbProfessor.TabIndex = 90;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(28, 62);
+            this.label3.Location = new System.Drawing.Point(37, 76);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(39, 13);
+            this.label3.Size = new System.Drawing.Size(48, 19);
             this.label3.TabIndex = 89;
             this.label3.Text = "Curso:";
             // 
-            // comboBox1
+            // cmbCurso
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(94, 54);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(281, 21);
-            this.comboBox1.TabIndex = 88;
+            this.cmbCurso.FormattingEnabled = true;
+            this.cmbCurso.Location = new System.Drawing.Point(125, 66);
+            this.cmbCurso.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbCurso.Name = "cmbCurso";
+            this.cmbCurso.Size = new System.Drawing.Size(373, 24);
+            this.cmbCurso.TabIndex = 88;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(28, 98);
+            this.label6.Location = new System.Drawing.Point(37, 121);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(58, 13);
+            this.label6.Size = new System.Drawing.Size(71, 19);
             this.label6.TabIndex = 87;
             this.label6.Text = "Professor:";
             // 
             // butAcessar
             // 
             this.butAcessar.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.butAcessar.Location = new System.Drawing.Point(106, 226);
+            this.butAcessar.Location = new System.Drawing.Point(141, 278);
+            this.butAcessar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.butAcessar.Name = "butAcessar";
-            this.butAcessar.Size = new System.Drawing.Size(202, 34);
+            this.butAcessar.Size = new System.Drawing.Size(269, 42);
             this.butAcessar.TabIndex = 86;
             this.butAcessar.Text = "Cadastrar Turma";
             this.butAcessar.UseVisualStyleBackColor = true;
+            this.butAcessar.Click += new System.EventHandler(this.butAcessar_Click);
             // 
             // btnVoltar
             // 
             this.btnVoltar.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVoltar.Location = new System.Drawing.Point(15, 386);
+            this.btnVoltar.Location = new System.Drawing.Point(20, 475);
+            this.btnVoltar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnVoltar.Name = "btnVoltar";
-            this.btnVoltar.Size = new System.Drawing.Size(132, 34);
+            this.btnVoltar.Size = new System.Drawing.Size(176, 42);
             this.btnVoltar.TabIndex = 85;
             this.btnVoltar.Text = "Voltar";
             this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(28, 144);
+            this.label10.Location = new System.Drawing.Point(37, 177);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(95, 13);
+            this.label10.Size = new System.Drawing.Size(117, 19);
             this.label10.TabIndex = 91;
             this.label10.Text = "Horário de inicio:";
             // 
@@ -115,76 +124,78 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(211, 144);
+            this.label1.Location = new System.Drawing.Point(281, 177);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(105, 13);
+            this.label1.Size = new System.Drawing.Size(128, 19);
             this.label1.TabIndex = 93;
             this.label1.Text = "Horário de término";
-            // 
-            // maskedTextBox1
-            // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(129, 137);
-            this.maskedTextBox1.Mask = "00:00";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(43, 20);
-            this.maskedTextBox1.TabIndex = 95;
-            this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
-            // 
-            // maskedTextBox2
-            // 
-            this.maskedTextBox2.Location = new System.Drawing.Point(322, 137);
-            this.maskedTextBox2.Mask = "00:00";
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(53, 20);
-            this.maskedTextBox2.TabIndex = 96;
-            this.maskedTextBox2.ValidatingType = typeof(System.DateTime);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(3, 11);
+            this.label2.Location = new System.Drawing.Point(4, 14);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(241, 37);
+            this.label2.Size = new System.Drawing.Size(298, 46);
             this.label2.TabIndex = 97;
             this.label2.Text = "Cadastrar Turmas";
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(12, 12);
+            this.panel1.Location = new System.Drawing.Point(16, 15);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(981, 55);
+            this.panel1.Size = new System.Drawing.Size(1308, 68);
             this.panel1.TabIndex = 98;
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.maskedTextBox2);
-            this.panel2.Controls.Add(this.maskedTextBox1);
+            this.panel2.Controls.Add(this.dtpFim);
+            this.panel2.Controls.Add(this.dtpInicio);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.label10);
-            this.panel2.Controls.Add(this.comboBox2);
+            this.panel2.Controls.Add(this.cmbProfessor);
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.comboBox1);
+            this.panel2.Controls.Add(this.cmbCurso);
             this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.butAcessar);
-            this.panel2.Location = new System.Drawing.Point(280, 73);
+            this.panel2.Location = new System.Drawing.Point(373, 90);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(409, 288);
+            this.panel2.Size = new System.Drawing.Size(545, 354);
             this.panel2.TabIndex = 99;
+            // 
+            // dtpInicio
+            // 
+            this.dtpInicio.Location = new System.Drawing.Point(162, 177);
+            this.dtpInicio.Name = "dtpInicio";
+            this.dtpInicio.Size = new System.Drawing.Size(73, 22);
+            this.dtpInicio.TabIndex = 94;
+            // 
+            // dtpFim
+            // 
+            this.dtpFim.Location = new System.Drawing.Point(423, 175);
+            this.dtpFim.Name = "dtpFim";
+            this.dtpFim.Size = new System.Drawing.Size(75, 22);
+            this.dtpFim.TabIndex = 95;
             // 
             // CadastrarTurmas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1015, 432);
+            this.ClientSize = new System.Drawing.Size(1351, 522);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnVoltar);
-            this.MaximumSize = new System.Drawing.Size(1031, 471);
-            this.MinimumSize = new System.Drawing.Size(1031, 471);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MaximumSize = new System.Drawing.Size(1369, 569);
+            this.MinimumSize = new System.Drawing.Size(1369, 569);
             this.Name = "CadastrarTurmas";
             this.Text = "CadastrarTurmas";
+            this.Load += new System.EventHandler(this.CadastrarTurmas_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -195,18 +206,18 @@
 
         #endregion
 
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cmbProfessor;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmbCurso;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button butAcessar;
         private System.Windows.Forms.Button btnVoltar;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.DateTimePicker dtpFim;
+        private System.Windows.Forms.DateTimePicker dtpInicio;
     }
 }
